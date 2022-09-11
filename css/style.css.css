@@ -1,0 +1,22 @@
+.header-text-menu{
+	color: rgb(30, 28, 32);
+}
+.content-text p{
+	color: blue;
+}
+.content-text-menu .color-pink {
+	color: rgb(197, 13, 157);
+}
+.header-text-menu{
+	color: rgb(30, 28, 32);
+}
+
+.training-tag p{
+	color: aqua;
+}
+.training-tag ~ p{
+	color: rgb(255, 0, 0);
+}
+.training-tag +p {
+	color: black;
+}
