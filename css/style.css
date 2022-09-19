@@ -1,0 +1,87 @@
+@font-face {
+	font-family: "Ephesis-Regular";
+	src: url(/fonts/Ephesis-Regular.woff2) format("woff2"), url(/fonts/Ephesis-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+}
+.header-main, h1,h2,.basic-post,.photo-cat,.photo-little-cat,.text-1,.text-2,.text-3,.text-4,.text-5,.text-6,.text-7,.text-8,.text-9,.text-10,.text-11,.text-12,.text-13,.text-17{
+	margin-bottom: 30px;
+}
+.header-main{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	text-shadow: -7px 3px 10px red;
+}
+h1,h2{
+	text-transform: uppercase;
+	color:rgb(175, 155, 155) ;
+	font-family: "Ephesis-Regular",cursive;
+font-style: italic;	
+}
+.basic-post{
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
+	font-size: 25px;
+	padding: 0px 70px;
+}
+.text-1{
+	text-decoration: line-through;
+}
+.text-2{
+	max-width: 800px;
+	font-style: oblique;
+	color: brown;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.text-4{
+	font-style: oblique;
+	color: rgb(40, 4, 243);
+	font-size: 20px;
+}
+
+.text-5{
+	line-height: 1.2;
+}
+.text-6{
+	letter-spacing: 20px;
+	
+}
+.text-8{
+	white-space: nowrap;
+}
+.text-9{
+	word-spacing:40px;
+}
+.text-10{
+	text-shadow: 0px -35px 2px rgb(225, 0, 255),0px -10px 0px rgb(40, 4, 243);
+	font-size: 40px;
+}
+.text-11{
+	text-transform: capitalize;
+	font-size: 25px;
+}
+.text-12{
+	text-transform: lowercase;
+}
+.text-13{
+	text-transform: uppercase;
+}
+.text-13{
+	margin: 20px 10px 20px 10px;
+	font-size: 20px;
+}
+.text-14{
+	margin: 30px 10px 40px;
+}
+.text-15{
+	margin: 50px 150px;
+}
+.text-16{
+	padding: 220px;
+}
+.finish-story{
+	font-size: 30px;
+	color: yellowgreen;
+}
