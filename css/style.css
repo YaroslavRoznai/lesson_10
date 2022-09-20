@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Ephesis-Regular";
-	src: url(/fonts/Ephesis-Regular.woff2) format("woff2"), url(/fonts/Ephesis-Regular.woff) format("woff");
+	src: url(../fonts/Ephesis-Regular.woff2) format("woff2"), url(../fonts/Ephesis-Regular.woff) format("woff");
 	font-display: swap;
 	font-weight: 400;
 }
