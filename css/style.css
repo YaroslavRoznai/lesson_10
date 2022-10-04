@@ -1,0 +1,160 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: #1E212C;
+}
+[class*="-container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.page-container{
+	margin-bottom: 23px;
+}
+.text-item{
+	padding-top: 30px;
+	font-weight: 900;
+font-size: 46px;
+line-height: 1.3;
+margin-bottom: 40px;
+}
+.text-page{
+	max-width: 600px;
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+color: #424551;
+margin-bottom: 49px;
+}
+.text-item2{
+	font-weight: 700;
+font-size: 28px;
+line-height: 1.5;
+}
+.block-container{
+	margin-bottom: 184px;
+}
+.spisok ul li::before{
+content:"";
+display: inline-block;
+background: url("../img/check.png") 0 19px no-repeat;
+margin-right: 16px;
+min-width: 16px;
+min-height: 35px;
+transition: all 0.8s ease 0s;
+}
+.spisok ul li:not(:last-of-type){
+	content:"" ;
+	margin-bottom: 9px;
+}
+.spisok ul li:hover::before{
+	transform: scale(1.5);
+}
+.zagolovok{
+max-width: 392px;
+margin-bottom: 32px;
+}
+.zagolovok-text{
+	font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 8px;
+}
+.zagolovok-text2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+.text-about {
+	font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+color: #787A80;
+margin-bottom: 32px;
+}
+.page-container-3{
+		margin-bottom: 50px;
+}
+.page-item3{
+	max-width: 600px;
+	font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+color: #424551;
+}
+.spisok2{
+	max-width: 125px;
+}
+.spisok2 ul li:nth-child(1){
+	content:"";
+	display: inline-block;
+	background: url("../img/Star.png") 0px 0 no-repeat;
+	padding-left:21px ;
+	min-width: 16px;
+	min-height: 35px;
+	}
+	.spisok2 ul li:nth-child(2){
+		content:"";
+		display: inline-block;
+		background: url("../img/Play.png") 0 0 no-repeat;
+		margin-right: 10px;
+		padding-left:21px ;
+		min-width: 16px;
+		min-height: 35px;
+		}
+		.spisok2 ul li:nth-child(3){
+			content:"";
+			display: inline-block;
+			background: url("../img/Profile.png") 0 0 no-repeat;
+			padding-left:21px ;
+			min-width: 16px;
+			min-height: 35px;
+			}
+	.spisok2 ul li:not(:last-of-type){
+		content:"" ;
+		margin-bottom: 9px;
+	}
+	.homework{
+		text-align: center;
+		font-size: 50px;
+		color: blue;
+		margin-bottom:20px;
+	}
+	.link-item a{
+		margin-right:40px;
+	}
+	.link {
+		color: crimson;
+		font-size: 40px;
+	}
+	.homework-container .link:hover{
+		color: rgb(255, 0, 221);
+	}
+	.link2{
+		color: rgba(0, 255, 55, 0.616);
+		font-size: 40px;
+	}
+.link2:active{
+color: aqua;
+}
+.link3{
+	color: rgba(0, 0, 0, 0.445);
+	font-size: 40px;
+}
+.link3:visited{
+	color: rgba(217, 255, 0, 0.445);
+	font-size: 40px;
+}
+.link-item{
+	margin-bottom: 100px;
+}
+.link4{
+	color: rgba(255, 115, 225, 0.445);
+	font-size: 40px;
+}
+.link:focus{
+	outline: 10px dashed teal ;
+}
